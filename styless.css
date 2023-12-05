@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  .game-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #acd2ee; /* Light gray background */
+    overflow: hidden;
+    background-image: url('grass.png'); /* Path to your green tile image */
+    background-repeat: repeat-x; /* Repeat the tile horizontally */
+  }
+  .dino {
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    background: url('dino.png') center / cover no-repeat;
+  }
+  
+  .obstacle {
+    position: absolute;
+    bottom: 0;
+    width: 120px;   
+    height: 80px;
+    background: url('spider.png') center / cover no-repeat;
+  }
+  
+
+  /* unvisited link */
+a:link {
+  color: rgb(74, 174, 255));
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(255, 255, 255);
+}
+
+/* selected link */
+a:active {
+  color: rgb(251, 251, 255);
+}

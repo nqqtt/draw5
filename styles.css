@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #fce8e6; /* Light pink background */
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header {
+    background-color: #ff7e75; /* Darker pink header */
+    padding: 10px 0;
+  }
+  
+  header h1 {
+    margin: 0;
+    color: white;
+  }
+  
+  nav {
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center the links horizontally */
+    align-items: center; /* Center the links vertically */
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 15px; /* Adjusted padding */
+    border-radius: 5px;
+    background-color: #ff7e75; /* Darker pink button background */
+    transition: background-color 0.3s;
+    display: inline-block; /* Added to fix the background cut issue */
+  }
+  
+  nav a:hover {
+    background-color: #ffc3a0; /* Lighter pink button background on hover */
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    color: #ff7e75; /* Darker pink heading */
+  }
+  
